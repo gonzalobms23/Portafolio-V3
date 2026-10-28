@@ -36,7 +36,7 @@ export const PERSONAL_INFO = {
   phone: "+51 950 366 255",
   phoneRaw: "+51950366255",
   email: "gonzalobms23@gmail.com",
-  cvPdfPath: "/assets/aistudio/CurriculumR5_053a31f2.pdf",
+  cvPdfPath: "/Portafolio-V3/public/assets/aistudio/CurriculumR5_053a31f2.pdf",
   experienceYears: "7+",
   cohortsTaught: "9+",
   bioShort: "Ingeniero de Sistemas e Informática con formación en Metalurgia. +7 años creando simuladores de alta fidelidad física para minería, sistemas de capacitación VR (LOTOTO) y videojuegos comerciales en Unity y C#.",
@@ -61,7 +61,7 @@ export const SKILL_CATEGORIES = [
     skills: ["PostgreSQL", "MySQL", "SQL Server", "Django"]
   },
   {
-    name: "Arte 3D & Gráficos",
+    name: "Arte 3D/2D & Gráficos",
     skills: ["Blender 3D", "Pixel Art", "Photoshop", "Illustrator"]
   }
 ];
@@ -93,21 +93,21 @@ export const PROJECTS: Project[] = [
   },
   {
     id: "capacitacion-lototo-vr",
-    title: "Capacitación LOTOTO & Seguridad VR",
+    title: "Capacitación & Seguridad VR",
     subtitle: "Bloqueo y desenergización en Realidad Virtual",
     category: "vr",
     categoryLabel: "VR & Seguridad",
     year: "2024",
     clientOrOrg: "TrainBeyond / Interimnova",
-    coverImage: "/assets/aistudio/RecorridoSeguridad1_a11c9523.png",
+    coverImage: "/Portafolio-V3/assets/aistudio/RecorridoSeguridad1_a11c9523.png",
     images: [
-      "/assets/aistudio/RecorridoSeguridad1_a11c9523.png",
-      "/assets/aistudio/RecorridoSeguridad3_00e6fa59.png",
-      "/assets/aistudio/RecorridoSeguridad4_6f7fc452.png",
-      "/assets/aistudio/RecorridoSeguridad5_74f57e09.png",
-      "/assets/aistudio/RecorridoSeguridad6_00e6fa59.png",
-      "/assets/aistudio/RecorridoSeguridad7_6f7fc452.png",
-      "/assets/aistudio/Recorridoseguridad2_74f57e09.png"
+      "/public/assets/aistudio/RecorridoSeguridad1_a11c9523.png",
+      "/public/assets/aistudio/RecorridoSeguridad3_00e6fa59.png",
+      "/public/assets/aistudio/RecorridoSeguridad4_6f7fc452.png",
+      "/public/assets/aistudio/RecorridoSeguridad5_74f57e09.png",
+      "/public/assets/aistudio/RecorridoSeguridad6_00e6fa59.png",
+      "/public/assets/aistudio/RecorridoSeguridad7_6f7fc452.png",
+      "/public/assets/aistudio/Recorridoseguridad2_74f57e09.png"
     ],
     summary: "Simulación inmersiva de protocolos LOTOTO en subestaciones y plantas concentradoras.",
     description: "Entorno interactivo para entrenamiento y certificación de operarios en bloqueo de energía peligrosa, colocación de candados/tarjetas y matriz IPERC.",
