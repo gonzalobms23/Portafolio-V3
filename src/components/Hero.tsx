@@ -55,10 +55,9 @@ export const Hero: React.FC<HeroProps> = ({ onExploreProjects, onOpenProjectModa
             {/* Headline */}
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold font-heading text-white tracking-tight leading-[1.08] mb-5 [text-wrap:balance]">
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-sky-300 to-violet-400">
-                Desarrollador de software
+                Desarrollador de software<br>
               </span>{' '}
-              Simuladores 3D 
-
+              Simuladores 3D, 
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-sky-300 to-violet-400">
                 Realidad Virtual
               </span>{' '}
@@ -130,7 +129,7 @@ export const Hero: React.FC<HeroProps> = ({ onExploreProjects, onOpenProjectModa
                         : 'text-slate-400 hover:text-white'
                     }`}
                   >
-                    {key === 'pala' ? 'Pala Minera' : key === 'lototo' ? 'LOTOTO VR' : 'Ear Clicker'}
+                    {key === 'pala' ? 'Simulador Minero' : key === 'lototo' ? 'Seguridad VR' : 'Ear Clicker'}
                   </button>
                 ))}
               </div>
