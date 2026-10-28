@@ -36,7 +36,7 @@ export const PERSONAL_INFO = {
   phone: "+51 950 366 255",
   phoneRaw: "+51950366255",
   email: "gonzalobms23@gmail.com",
-  cvPdfPath: "/Portafolio-V3/public/assets/aistudio/CurriculumR5_053a31f2.pdf",
+  cvPdfPath: "/Portafolio-V3/assets/aistudio/CurriculumR5_053a31f2.pdf",
   experienceYears: "7+",
   cohortsTaught: "9+",
   bioShort: "Ingeniero de Sistemas e Informática con formación en Metalurgia. +7 años creando simuladores de alta fidelidad física para minería, sistemas de capacitación VR (LOTOTO) y videojuegos comerciales en Unity y C#.",
@@ -75,10 +75,10 @@ export const PROJECTS: Project[] = [
     categoryLabel: "Simuladores Mineros",
     year: "2024",
     clientOrOrg: "Sector Minero",
-    coverImage: "${import.meta.env.BASE_URL}/assets/aistudio/SimuladorPalaminera1_0a3058f9.png",
+    coverImage: "/Portafolio-V3/assets/aistudio/SimuladorPalaminera1_0a3058f9.png",
     images: [
-      "${import.meta.env.BASE_URL}/assets/aistudio/SimuladorPalaminera1_0a3058f9.png",
-      "${import.meta.env.BASE_URL}/assets/aistudio/Simuladorpalaminera2_8e55dc10.png"
+      "/Portafolio-V3/assets/aistudio/SimuladorPalaminera1_0a3058f9.png",
+      "/Portafolio-V3/assets/aistudio/Simuladorpalaminera2_8e55dc10.png"
     ],
     summary: "Física dinámica de excavación, balde y descarga sobre camiones de acarreo en tajo abierto.",
     description: "Simulador operativo en Unity con cinemática precisa de brazos articulados, cables de izaje y dinámica de material dinamitado para la capacitación de operadores.",
@@ -128,13 +128,13 @@ export const PROJECTS: Project[] = [
     categoryLabel: "Videojuego Comercial",
     year: "2023",
     clientOrOrg: "Black Cat Studio (Steam / Mobile)",
-    coverImage: "/assets/aistudio/Clicker1_7b4e4a18.png",
+    coverImage: "/Portafolio-V3/assets/aistudio/Clicker1_7b4e4a18.png",
     images: [
-      "/assets/aistudio/Clicker1_7b4e4a18.png",
-      "/assets/aistudio/Clicker2_9eb7ee75.png",
-      "/assets/aistudio/Clicker3_af0188ad.png",
-      "/assets/aistudio/Clicker4_63da82f7.png",
-      "/assets/aistudio/Clicker5_b8bdd61f.png"
+      "/Portafolio-V3/assets/aistudio/Clicker1_7b4e4a18.png",
+      "/Portafolio-V3/assets/aistudio/Clicker2_9eb7ee75.png",
+      "/Portafolio-V3/assets/aistudio/Clicker3_af0188ad.png",
+      "/Portafolio-V3/assets/aistudio/Clicker4_63da82f7.png",
+      "/Portafolio-V3/assets/aistudio/Clicker5_b8bdd61f.png"
     ],
     summary: "Juego comercial publicado con arte pixel art, sistema de asedio, mejoras de tropas y hordas enemigas.",
     description: "Diseño y programación completa de juego incremental medieval. Defiende tu fortaleza contratando arqueros, caballeros y mejorando daño por click.",
@@ -157,10 +157,10 @@ export const PROJECTS: Project[] = [
     categoryLabel: "Simuladores Mineros",
     year: "2023",
     clientOrOrg: "Industria Minera",
-    coverImage: "/assets/aistudio/SimuladorCamionMinero_1fd0569e.png",
+    coverImage: "/Portafolio-V3/assets/aistudio/SimuladorCamionMinero_1fd0569e.png",
     images: [
-      "/assets/aistudio/SimuladorCamionMinero_1fd0569e.png",
-      "/assets/aistudio/Simuladorcamion2_702a2a9a.png"
+      "/Portafolio-V3/assets/aistudio/SimuladorCamionMinero_1fd0569e.png",
+      "/Portafolio-V3/assets/aistudio/Simuladorcamion2_702a2a9a.png"
     ],
     summary: "Módulo de conducción con instrumental analógico y digital, marchas 1N y bermas de seguridad.",
     description: "Entrenamiento para operadores de camiones de extracción con tacómetro de RPM, medidores de frenos, retardador y conducción en pendientes.",
@@ -181,10 +181,10 @@ export const PROJECTS: Project[] = [
     categoryLabel: "Simuladores Logísticos",
     year: "2023",
     clientOrOrg: "Capacitación Logística",
-    coverImage: "/assets/aistudio/Simuladormontacargas_2d203d1d.png",
+    coverImage: "/Portafolio-V3/assets/aistudio/Simuladormontacargas_2d203d1d.png",
     images: [
-      "/assets/aistudio/Simuladormontacargas_2d203d1d.png",
-      "/assets/aistudio/Simuladormontacargas2_86747197.png"
+      "/Portafolio-V3/assets/aistudio/Simuladormontacargas_2d203d1d.png",
+      "/Portafolio-V3/assets/aistudio/Simuladormontacargas2_86747197.png"
     ],
     summary: "Control hidráulico de horquillas, elevación de pallets y navegación por radar en nave industrial.",
     description: "Simulador de entrenamiento en almacén para maniobras con pallets, estantes industriales y penalización por infracciones.",
@@ -205,11 +205,11 @@ export const PROJECTS: Project[] = [
     categoryLabel: "Simuladores Mineros",
     year: "2024",
     clientOrOrg: "Sector Construcción & Minería",
-    coverImage: "/assets/aistudio/SimuladorcargadorFrontal_80ebced0.png",
+    coverImage: "/Portafolio-V3/assets/aistudio/SimuladorcargadorFrontal_80ebced0.png",
     images: [
-      "/assets/aistudio/SimuladorcargadorFrontal_80ebced0.png",
-      "/assets/aistudio/SimuladorcargadorFrontal2_df5e357f.png",
-      "/assets/aistudio/Simuladorexcavadora_f47f4505.png"
+      "/Portafolio-V3/assets/aistudio/SimuladorcargadorFrontal_80ebced0.png",
+      "/Portafolio-V3/assets/aistudio/SimuladorcargadorFrontal2_df5e357f.png",
+      "/Portafolio-V3/assets/aistudio/Simuladorexcavadora_f47f4505.png"
     ],
     summary: "Simulación de brazos hidráulicos, cuchara de empuje y waypoints holográficos de avance.",
     description: "Entrenamiento para cargadores frontales y excavadoras sobre orugas, enfocado en ciclos de carguío y precisión de empuje.",
@@ -230,9 +230,9 @@ export const PROJECTS: Project[] = [
     categoryLabel: "Videojuego Comercial",
     year: "2022",
     clientOrOrg: "Black Cat Studio",
-    coverImage: "/assets/aistudio/EarhDefense_9c5fc155.png",
+    coverImage: "/Portafolio-V3/assets/aistudio/EarhDefense_9c5fc155.png",
     images: [
-      "/assets/aistudio/EarhDefense_9c5fc155.png"
+      "/Portafolio-V3/assets/aistudio/EarhDefense_9c5fc155.png"
     ],
     summary: "Arcade dinámico de defensa planetaria circular con combos, monedas cósmicas y naves enemigas.",
     description: "Videojuego publicado en tiendas móviles donde defiendes la órbita de la Tierra interceptando oleadas alienígenas.",
@@ -253,10 +253,10 @@ export const PROJECTS: Project[] = [
     categoryLabel: "Experiencias 3D",
     year: "2023",
     clientOrOrg: "Interimnova",
-    coverImage: "/assets/aistudio/RecorridoCarros1_e1608717.png",
+    coverImage: "/Portafolio-V3/assets/aistudio/RecorridoCarros1_e1608717.png",
     images: [
-      "/assets/aistudio/RecorridoCarros1_e1608717.png",
-      "/assets/aistudio/Recorrido_Carros_2_0608a568.png"
+      "/Portafolio-V3/assets/aistudio/RecorridoCarros1_e1608717.png",
+      "/Portafolio-V3/assets/aistudio/Recorrido_Carros_2_0608a568.png"
     ],
     summary: "Configurador de color de carrocería, apertura de puertas e interior con hotspots técnicos.",
     description: "Experiencia 3D fotorrealista con visualización exterior e interior deportiva del GR Yaris.",
@@ -277,11 +277,11 @@ export const PROJECTS: Project[] = [
     categoryLabel: "Laboratorios 3D",
     year: "2024",
     clientOrOrg: "TECSUP",
-    coverImage: "/assets/aistudio/laboratorioQuimica1_61b9f0e3.png",
+    coverImage: "/Portafolio-V3/assets/aistudio/laboratorioQuimica1_61b9f0e3.png",
     images: [
-      "/assets/aistudio/laboratorioQuimica1_61b9f0e3.png",
-      "/assets/aistudio/laboratorioQuimica2_63beb805.png",
-      "/assets/aistudio/cursoMecacinaAire_4ad2e8b9.png"
+      "/Portafolio-V3/assets/aistudio/laboratorioQuimica1_61b9f0e3.png",
+      "/Portafolio-V3/assets/aistudio/laboratorioQuimica2_63beb805.png",
+      "/Portafolio-V3/assets/aistudio/cursoMecacinaAire_4ad2e8b9.png"
     ],
     summary: "Simulaciones experimentales de equilibrio estático, densidades y refrigeración industrial.",
     description: "Laboratorios virtuales desarrollados para complementar las prácticas presenciales de ingeniería en Tecsup.",
