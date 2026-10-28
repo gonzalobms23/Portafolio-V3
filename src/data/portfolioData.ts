@@ -75,10 +75,10 @@ export const PROJECTS: Project[] = [
     categoryLabel: "Simuladores Mineros",
     year: "2024",
     clientOrOrg: "Sector Minero",
-    coverImage: "${import.meta.env.BASE_URL}assets/aistudio/SimuladorPalaminera1_0a3058f9.png",
+    coverImage: "${import.meta.env.BASE_URL}/assets/aistudio/SimuladorPalaminera1_0a3058f9.png",
     images: [
-      "${import.meta.env.BASE_URL}assets/aistudio/SimuladorPalaminera1_0a3058f9.png",
-      "${import.meta.env.BASE_URL}assets/aistudio/Simuladorpalaminera2_8e55dc10.png"
+      "${import.meta.env.BASE_URL}/assets/aistudio/SimuladorPalaminera1_0a3058f9.png",
+      "${import.meta.env.BASE_URL}/assets/aistudio/Simuladorpalaminera2_8e55dc10.png"
     ],
     summary: "Física dinámica de excavación, balde y descarga sobre camiones de acarreo en tajo abierto.",
     description: "Simulador operativo en Unity con cinemática precisa de brazos articulados, cables de izaje y dinámica de material dinamitado para la capacitación de operadores.",
