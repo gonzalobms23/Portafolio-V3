@@ -12,7 +12,7 @@ export const AboutSection: React.FC = () => {
             Perfil Profesional
           </span>
           <h2 className="text-3xl sm:text-4xl font-bold font-heading text-white tracking-tight">
-            Quién Soy & Black Cat Studio
+            Educacion
           </h2>
           <p className="text-slate-300 text-sm sm:text-base mt-3 leading-relaxed font-light">
             {PERSONAL_INFO.bioShort}

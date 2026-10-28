@@ -28,7 +28,7 @@ export const ProjectGrid: React.FC<ProjectGridProps> = ({ onOpenProjectModal }) 
       },
       {
         id: 'vr',
-        label: 'VR & LOTOTO',
+        label: 'VR',
         count: PROJECTS.filter((p) => p.category === 'vr').length
       },
       {
