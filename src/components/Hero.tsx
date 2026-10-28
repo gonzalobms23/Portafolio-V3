@@ -16,21 +16,21 @@ export const Hero: React.FC<HeroProps> = ({ onExploreProjects, onOpenProjectModa
       title: 'Pala Eléctrica Minera P&H 4100XPC',
       tag: 'Simulador Minero',
       desc: 'Cinemática física de excavación y carga a camiones.',
-      image: '/assets/aistudio/SimuladorPalaminera1_0a3058f9.png'
+      image: '/Portafolio-V3/assets/aistudio/SimuladorPalaminera1_0a3058f9.png'
     },
     lototo: {
       id: 'capacitacion-lototo-vr',
       title: 'Capacitación LOTOTO en Realidad Virtual',
       tag: 'VR & Seguridad',
       desc: 'Bloqueo y desenergización industrial en VR.',
-      image: '/assets/aistudio/RecorridoSeguridad1_a11c9523.png'
+      image: '/Portafolio-V3/assets/aistudio/RecorridoSeguridad1_a11c9523.png'
     },
     earclicker: {
       id: 'ear-clicker-game',
       title: 'Ear Clicker (Comercial)',
       tag: 'Videojuego Publicado',
       desc: 'Incremental medieval con pixel art original.',
-      image: '/assets/aistudio/Clicker1_7b4e4a18.png'
+      image: '/Portafolio-V3/assets/aistudio/Clicker1_7b4e4a18.png'
     }
   };
 
@@ -57,7 +57,7 @@ export const Hero: React.FC<HeroProps> = ({ onExploreProjects, onOpenProjectModa
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-sky-300 to-violet-400">
                 Desarrollador de software
               </span>{' '}
-              Simuladores 3D,{' '}
+              Simuladores 3D
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-sky-300 to-violet-400">
                 Realidad Virtual
               </span>{' '}
@@ -66,7 +66,7 @@ export const Hero: React.FC<HeroProps> = ({ onExploreProjects, onOpenProjectModa
 
             {/* Minimalist Subtitle */}
             <p className="text-base sm:text-lg text-slate-300 leading-relaxed max-w-xl mb-8 font-light">
-              Ingeniero de Software con +7 años creando simuladores de maquinaria pesada para minería, sistemas VR de alta precisión y videojuegos publicados en Unity.
+              Ingeniero de Sistemas e informatica con +7 años creando simuladores de maquinaria pesada para minería, sistemas VR de alta precisión y videojuegos publicados en Unity y Unreal.
             </p>
 
             {/* Sleek Rounded CTAs */}
@@ -183,19 +183,19 @@ export const Hero: React.FC<HeroProps> = ({ onExploreProjects, onOpenProjectModa
 
           <div className="p-4 rounded-2xl bg-white/[0.02] border border-white/5 backdrop-blur-sm">
             <span className="font-heading font-extrabold text-2xl sm:text-3xl text-violet-400 block tabular-nums">
-              9 Cohortes
+              +10 Grupos Exitosos
             </span>
             <span className="text-xs text-slate-400 mt-1 block">
-              Docente en TECSUP
+              Docente en TECSUP y universidades
             </span>
           </div>
 
           <div className="p-4 rounded-2xl bg-white/[0.02] border border-white/5 backdrop-blur-sm">
             <span className="font-heading font-extrabold text-2xl sm:text-3xl text-indigo-400 block tabular-nums">
-              5+ Simuladores
+              8+ Simuladores y Videojuegos
             </span>
             <span className="text-xs text-slate-400 mt-1 block">
-              Maquinaria Minera & Tajo
+              Maquinaria Minera
             </span>
           </div>
 

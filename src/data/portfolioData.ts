@@ -38,10 +38,10 @@ export const PERSONAL_INFO = {
   email: "gonzalobms23@gmail.com",
   cvPdfPath: "/Portafolio-V3/assets/aistudio/CurriculumR5_053a31f2.pdf",
   experienceYears: "7+",
-  cohortsTaught: "9+",
-  bioShort: "Ingeniero de Sistemas e Informática con formación en Metalurgia. +7 años creando simuladores de alta fidelidad física para minería, sistemas de capacitación VR (LOTOTO) y videojuegos comerciales en Unity y C#.",
+  cohortsTaught: "10+",
+  bioShort: "Ingeniero de Sistemas e Informática y tecnico en Metalurgia. +7 años creando simuladores de alta fidelidad física para minería, sistemas de capacitación VR y videojuegos comerciales en Unity y C#.",
   quickHighlights: [
-    { title: "Ingeniería + Metalurgia", desc: "Comprensión técnica real de tajo abierto y equipos mineros." },
+    { title: "Ingeniería + Metalurgia", desc: "Comprensión técnica real de mineria y equipos mineros." },
     { title: "Docente en TECSUP", desc: "9 promociones formadas en desarrollo de videojuegos y C#." },
     { title: "Premios Hackathon", desc: "2.º Puesto Perumin y 3.er Puesto El Comercio." }
   ]
@@ -307,7 +307,7 @@ export const WORK_EXPERIENCE: ExperienceItem[] = [
   {
     role: "Desarrollador de Capacitación en RV",
     company: "Interimnova",
-    period: "Enero 2026 – Actualidad",
+    period: "Enero 2025 – Actualidad",
     description: "Soluciones de Realidad Virtual y Aumentada para capacitación y marketing corporativo.",
     highlights: ["Módulos formativos con telemetría", "Experiencias WebGL 3D interactivas"]
   },
@@ -322,8 +322,15 @@ export const WORK_EXPERIENCE: ExperienceItem[] = [
     role: "Desarrollador en Jefe de Software",
     company: "Evolution Soluciones Digitales",
     period: "Setiembre 2018 – Enero 2026",
-    description: "Liderazgo técnico en simuladores de maquinaria pesada, VR y backend Python/Django.",
+    description: "Liderazgo técnico en simuladores de maquinaria pesada, VR, Desarrollo de videojuegos y software interactivo y backend Python/Django.",
     highlights: ["Simuladores mineros y de logística", "Arquitectura backend e integración de hardware"]
+  },
+  {
+    role: "Jefe de ventas",
+    company: "Global Tech, System Group",
+    period: "agosto 2016 – diciembre 2018",
+    description: "Lider en el area de ventas, logistica y soporte de hardware.",
+    highlights: ["Jefe de ventas"]
   }
 ];
 

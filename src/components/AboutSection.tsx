@@ -41,7 +41,7 @@ export const AboutSection: React.FC = () => {
               Docente en TECSUP
             </h3>
             <p className="text-xs text-slate-300 leading-relaxed font-light">
-              Profesor titular en CODIGO by Tecsup. Más de 9 cohortes formadas en desarrollo de videojuegos con Unity, arquitectura en C# y Game Design.
+              Profesor titular en CODIGO by Tecsup. Más de +10 grupos exitosos formadas en desarrollo de videojuegos con Unity, arquitectura en C# y Game Design.
             </p>
           </div>
 
