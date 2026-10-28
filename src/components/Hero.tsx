@@ -20,9 +20,9 @@ export const Hero: React.FC<HeroProps> = ({ onExploreProjects, onOpenProjectModa
     },
     lototo: {
       id: 'capacitacion-lototo-vr',
-      title: 'Capacitación LOTOTO en Realidad Virtual',
+      title: 'Capacitación de Seguridad en Realidad Virtual',
       tag: 'VR & Seguridad',
-      desc: 'Bloqueo y desenergización industrial en VR.',
+      desc: 'Sistema de capacitacion de seguridad industrial en VR.',
       image: '/Portafolio-V3/assets/aistudio/RecorridoSeguridad1_a11c9523.png'
     },
     earclicker: {
@@ -57,7 +57,8 @@ export const Hero: React.FC<HeroProps> = ({ onExploreProjects, onOpenProjectModa
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-sky-300 to-violet-400">
                 Desarrollador de software
               </span>{' '}
-              Simuladores 3D
+              Simuladores 3D 
+
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-sky-300 to-violet-400">
                 Realidad Virtual
               </span>{' '}
@@ -109,7 +110,7 @@ export const Hero: React.FC<HeroProps> = ({ onExploreProjects, onOpenProjectModa
               <span className="text-slate-500 font-medium">Especialidad:</span>
               <span className="px-2.5 py-1 rounded-full bg-violet-950/40 border border-violet-500/20 text-violet-300">Unity & C#</span>
               <span className="px-2.5 py-1 rounded-full bg-indigo-950/40 border border-indigo-500/20 text-indigo-300">VR / Meta Quest</span>
-              <span className="px-2.5 py-1 rounded-full bg-blue-950/40 border border-blue-500/20 text-blue-300">Simulación Minera</span>
+              <span className="px-2.5 py-1 rounded-full bg-blue-950/40 border border-blue-500/20 text-blue-300">Simulación Industrial/Minera</span>
               <span className="px-2.5 py-1 rounded-full bg-purple-950/40 border border-purple-500/20 text-purple-300">Docente TECSUP</span>
             </div>
           </div>

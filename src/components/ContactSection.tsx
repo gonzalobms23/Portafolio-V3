@@ -187,7 +187,7 @@ export const ContactSection: React.FC = () => {
                 >
                   <option value="Oportunidad Laboral">Oportunidad Laboral (Desarrollador Unity / VR)</option>
                   <option value="Simulador de Maquinaria">Simulador de Maquinaria Pesada</option>
-                  <option value="Capacitación VR (LOTOTO)">Capacitación VR (LOTOTO / Seguridad)</option>
+                  <option value="Capacitación VR (LOTOTO)">Capacitación VR (Seguridad)</option>
                   <option value="Videojuego Comercial">Desarrollo de Videojuego</option>
                   <option value="Consultoría / Docencia">Consultoría o Docencia</option>
                 </select>

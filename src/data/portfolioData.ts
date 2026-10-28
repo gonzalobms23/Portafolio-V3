@@ -94,7 +94,7 @@ export const PROJECTS: Project[] = [
   {
     id: "capacitacion-lototo-vr",
     title: "Capacitación & Seguridad VR",
-    subtitle: "Bloqueo y desenergización en Realidad Virtual",
+    subtitle: "Sistema de capacitación en seguridad en Realidad Virtual",
     category: "vr",
     categoryLabel: "VR & Seguridad",
     year: "2024",
@@ -109,14 +109,14 @@ export const PROJECTS: Project[] = [
       "/Portafolio-V3/assets/aistudio/RecorridoSeguridad7_6f7fc452.png",
       "/Portafolio-V3/assets/aistudio/Recorridoseguridad2_74f57e09.png"
     ],
-    summary: "Simulación inmersiva de protocolos LOTOTO en subestaciones y plantas concentradoras.",
+    summary: "Simulación inmersiva de protocolos Seguridad en subestaciones y plantas concentradoras.",
     description: "Entorno interactivo para entrenamiento y certificación de operarios en bloqueo de energía peligrosa, colocación de candados/tarjetas y matriz IPERC.",
     technicalDetails: [
       "Interacción con mandos VR en Meta Quest y SteamVR.",
       "Validación de pasos secuenciales obligatorios con feedback de errores.",
       "Optimización de escenas industriales complejas mediante LODs y culling."
     ],
-    technologies: ["VR", "Unity", "C#", "LOTOTO", "Meta Quest"],
+    technologies: ["VR", "Unity", "C#", "Seguridad", "Meta Quest"],
     actionLabel: "Probar en VR",
     projectUrl: "https://www.meta.com/experiences"
   },
